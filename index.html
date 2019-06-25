@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dobbin's Dogs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="dobbinsDogs.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="dobbinsDogsScript.js"></script>
+</head>
+<body>
+	<a href="index.html"><header>
+		<div id="logo"></div>
+		<h1 id='title'>DOBBINS DOGS</h1> <div id='siteDesc'>HOT DOGS<span id="slogan">AT A SHOR NEAR YOU</span></div>
+	</header></a>
+
+	<div id='fixed_utilities'>
+		<h4>☏ (123)456-7890</h4>
+	</div>
+
+	<main>
+		<!--Carousel-->
+		<div class='carousel'>
+		<button class='carouselButtonLeft'>&lt</button>
+
+		<div class='carouselTrackContainer'>
+
+			<ul class='carouselTrack'>
+				<li class="carouselSlide currentSlide">
+					<div class='carouselImage' style="background: url('images/stand.jpg') no-repeat center center/cover;"></div>
+				</li>
+
+				<li class="carouselSlide">
+					<div class='carouselImage' style="background: url('images/fullStand.jpg') no-repeat center center/cover;"></div>
+				</li>
+
+				<li class="carouselSlide">
+					<div class='carouselImage' style="background: url('images/business.jpg') no-repeat center center/cover;"></div>
+				</li>
+				
+				<li class="carouselSlide">
+					<div class='carouselImage' style="background: url('images/working.jpg') no-repeat center center/cover;"></div>
+				</li>
+
+				<li class="carouselSlide">
+					<div class='carouselImage' style="background: url('images/') no-repeat center center/cover;"></div>
+				</li>
+
+				<li class="carouselSlide">
+					<div class='carouselImage' style="background: url('images/') no-repeat center center/cover;"></div>
+				</li>
+			</ul>
+
+		</div>
+		
+		
+		<button class='carouselButtonRight'>&gt</button>
+	</div>
+
+	<div class='carouselNav'>
+		<button class='carouselIndicator currentSlide'></button>
+		<button class='carouselIndicator'></button>
+		<button class='carouselIndicator'></button>
+		<button class='carouselIndicator'></button>
+		<button class='carouselIndicator'></button>
+		<button class='carouselIndicator'></button>
+	</div>
+
+	<!--End of carousel-->
+
+	<div class="quotes">
+		<p>Quote 1</p>
+		<p>Quote 2</p>
+		<p>Quote 3</p>
+		<p>Quote 4</p>
+	</div>
+
+	<div class='sub_footer'>
+		<form id="contactForm">
+			Subject:
+			<select class="contact">
+				<option>Option 1</option>
+			</select><br/>
+			First Name: <input class="contact" type="text" name="firstName"><br/>
+			Last Name: <input class="contact" type="text" name="lastName"><br/>
+			Comment:<br/>
+			<textarea class="contact" placeholder="Comment"></textarea>
+			<input type="submit" value="Send">
+		</form>
+
+		<h4>123 Madeup Street Erie</h4>
+	</div>
+
+	</main>
+	
+	<footer>
+		<h3>Website Template by Tyler Trout 2018</h3>
+	</footer>
+</body>
+</html>
