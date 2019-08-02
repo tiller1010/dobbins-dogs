@@ -84,10 +84,10 @@ window.onload=function(){
 		upDateDots(currentDot, targetDot);
 	})	
 
-	//Fade "Ice Cream"
-	const iceCream = document.getElementById('siteDesc');
+	//Fade Slogan
+	const slogan = document.getElementById('siteDesc');
 	document.addEventListener('scroll',function(){
-		iceCream.style.opacity=iceCream.getBoundingClientRect().top/100;
+		slogan.style.opacity=slogan.getBoundingClientRect().top/100;
 	});
 
 	// Fix carousel on resize

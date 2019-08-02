@@ -10,7 +10,7 @@ header{
 	position: absolute;
 	left:0;
 	top: 0;
-	background: #fff;
+	background: #FDFDFF;
 	width:100%;
 	height:195px;
 	border-top: solid #D36E57aa 20px;
@@ -75,32 +75,43 @@ header{
 	border-left: 5px solid #ccc;
 }
 
-h2{
-	margin-left: 60%;
-	padding:15px;
-	border:solid #55555577;
-	font-family:sans-serif;
-	width:content-width;
-	font-size: 20px;
-	background-color:white;
+.section-header{
 	text-align: center;
+	font-size: 2em;
+
 }
 
-p{
+.quote{
 	padding:50px 10px;
 	border:solid #55555511;
+	border-radius: 10px;
+	margin: 20px 0;
 	font-family:sans-serif;
 	width:content-width;
 	font-size: 16px;
-	background-color:white;
 	text-indent: 22px;
+	background-color: #ddd;
+}
+
+h2{
+	font-family: 'Fredoka One', cursive;
+}
+
+.text-right{
+	text-align: right;
 }
 
 .quotes{
-	padding-top: 100px;
+	padding-top: 40px;
 	width:80%;
 	margin:25px auto;
 	background: white;
+}
+
+.banner-image{
+	width: 100%;
+	height: 300px;
+	margin: 60px 0;
 }
 
 .sub_footer{
