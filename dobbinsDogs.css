@@ -283,6 +283,7 @@ button{
 .contact{
 	margin:13px;
 	padding: 10px 0;
+	font-family: arial;
 }
 textarea{
 	min-height: 100px;
@@ -295,6 +296,7 @@ textarea{
 	color: #fff;
 	font-size: 1.5em;
 	border: none;
+	transition: background-color .5s;
 }
 .submit:hover{
 	background-color: #cc2628;
