@@ -351,6 +351,9 @@ textarea{
 	.carouselNav{
 		transform: translateY(60px);
 	}
+	.carouselIndicator{
+		width: 9px;
+	}
 }
 @media only screen and (max-width: 710px){
 	#title{
