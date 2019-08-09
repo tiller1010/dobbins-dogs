@@ -267,8 +267,9 @@ button{
 	border:0;
 	border-radius: 50%;
 	background:grey;
-	height:10px;
-	width:10px;
+	height:11px;
+	width:11px;
+	padding: 0;
 	transition: background .5s;
 }
 
