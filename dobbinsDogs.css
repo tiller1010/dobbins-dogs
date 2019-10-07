@@ -19,7 +19,7 @@ a{
 .social-icon{
 	width: 20px;
 	height: 20px;
-	margin-right: 10px;
+	margin: 0 10px;
 }
 .center{
 	text-align: center;
@@ -357,6 +357,11 @@ textarea{
 	}
 	main > *{
 		margin:5px 0 5px 0;
+	}
+	#fixed_utilities{
+		display: flex;
+		justify-content: flex-end;
+		width: fit-content;
 	}
 	.carousel{
 		transform: translateY(40px);
